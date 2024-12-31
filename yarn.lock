@@ -1304,7 +1304,7 @@
   resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.9.3.tgz#8408219eae9b1fb74f86c24e7150a148460414ad"
   integrity sha512-kRVpIl4vVGJ4baogMDINbyrIOtOxqhkZQg4jTq3l8Lw6WSk0xfpEYzezFu+Kl4ve4fbPl79dvwRtaFqAC/ucCw==
 
-"@firebase/app@0.10.17":
+"@firebase/app@0.10.17", "@firebase/app@^0.10.17":
   version "0.10.17"
   resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.10.17.tgz#d66df53c903cf38fe8bf15f1f5278d08b1564a62"
   integrity sha512-53sIYyAnYEPIZdaxuyq5OST7j4KBc2pqmktz+tEb1BIUSbXh8Gp4k/o6qzLelLpm4ngrBz7SRN0PZJqNRAyPog==
