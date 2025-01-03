@@ -11,6 +11,7 @@ export default function Products() {
   } = useQuery({
     queryKey: ['products'],
     queryFn: getProducts,
+    staleTime: 1000 * 60 // 문제가 발생하지 않는 지 확인
   }); 
   
   // useQuery(['products'], getProducts);
