@@ -17,8 +17,13 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFound />,
     children: [
-      { index: true, path: '/', element: <Home /> },
-      { path: '/products', element: <AllProducts /> },
+      { index: true, 
+        path: '/',
+        element: <Home /> 
+      },
+      { path: '/products', 
+        element: <AllProducts />
+      },
       {
         path: '/products/new',
         element: <ProtectedRoute requireAdmin><NewProduct /></ProtectedRoute>,

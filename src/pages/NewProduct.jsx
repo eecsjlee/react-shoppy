@@ -29,7 +29,7 @@ export default function NewProduct() {
             });
         })
         
-        .fianlly(() => setIsUploading(false));
+        .finally(() => setIsUploading(false));
     };
 
     return (
